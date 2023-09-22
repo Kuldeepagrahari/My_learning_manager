@@ -1,0 +1,212 @@
+#body::before{  /*pseudo selector*/
+    content:"";
+    background:url("https://media1.giphy.com/media/kg19fN5BXbZGIDznzG/200w.webp?cid=ecf05e47u4rx5bmdjpqsmz3khowracb5hcpbudr4vy2w0o7p&ep=v1_gifs_search&rid=200w.webp&ct=g")
+     
+    no-repeat center center/cover; 
+
+
+    position:absolute;
+    height: 180vh;
+    width:100vw;
+    opacity:1;  /*darkness of back-color*/
+    z-index: -1;
+}
+@media screen and (max-width:850px){
+    #body::before{  /*pseudo selector*/
+        content:"";
+        background:url("https://media1.giphy.com/media/kg19fN5BXbZGIDznzG/200w.webp?cid=ecf05e47u4rx5bmdjpqsmz3khowracb5hcpbudr4vy2w0o7p&ep=v1_gifs_search&rid=200w.webp&ct=g")
+         
+        no-repeat center center/cover; 
+    
+    
+        position:absolute;
+        height: 280vh;
+        width:100vw;
+        opacity:1;  /*darkness of back-color*/
+        z-index: -1;
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:350px){
+    #body::before{  /*pseudo selector*/
+        content:"";
+        background:url("https://media1.giphy.com/media/kg19fN5BXbZGIDznzG/200w.webp?cid=ecf05e47u4rx5bmdjpqsmz3khowracb5hcpbudr4vy2w0o7p&ep=v1_gifs_search&rid=200w.webp&ct=g")
+         
+        no-repeat center center/cover; 
+    
+    
+        position:absolute;
+        height: 400vh;
+        width:100vw;
+        opacity:1;  /*darkness of back-color*/
+        z-index: -1;
+        font-size: 10px;
+    }
+}
+#start{
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:2rem;
+
+    margin-top:0rem;
+}
+#timer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    margin-top:4rem;
+    color:white;
+    gap:1.5rem;
+     flex-wrap: wrap;  
+
+
+}
+.count{
+    display:flex;
+    flex-direction: column;
+  align-items: center; 
+  font-size: 1.2rem;
+
+    /* justify-content: center; */
+}
+#heading{
+    margin-top: 0px;
+    padding-top:2rem;
+    font-size:2.5rem;
+    color:rgb(64, 243, 243);
+    text-align: center;
+    text-shadow:10px -2px black ;
+}
+#h1{margin-bottom: 0px;
+    padding-top:2rem;
+    font-size:1.7rem;
+    color:rgb(10, 254, 59);
+    text-align: center;
+    text-shadow:10px -2px black ;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    gap:2rem;
+    flex-wrap: wrap;
+}
+#h3{
+    color:rgb(252, 196, 255);
+    text-align: center;
+    font-size: 2.5rem;
+}
+.count:hover{
+    transform: scale(1.3);
+    
+}
+.input{
+    height:4rem;
+    width:4.5rem;
+    margin:0px;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+ #h1 img{
+    width:6rem;
+    height:5rem;
+ }
+ #content{
+    display:flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+ }
+ #final{
+   text-align: center;
+
+ }
+ #message{
+    color:rgb(254, 246, 13);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top:4rem;
+    
+ }
+ #images{
+
+@media(min-width: 450px){
+    position: relative;
+    width:25rem;
+    height:20rem; 
+    margin-top: 3rem;
+    overflow: hidden;
+}
+@media(max-width:450px){
+    position: relative;
+width:12rem;
+height:10rem; 
+margin-top: 3rem;
+overflow: hidden;
+}
+
+
+ }
+.photo{
+    width:100%;
+    height:100%;
+    position:absolute;
+    transition: 1sec;
+}
+#slider{
+    display:flex;
+    flex-direction: column;
+    gap:1rem;
+    align-items: center;
+    justify-content: space-around;
+}
+#btn button{
+    border:none;
+    background-color:transparent;
+     color:rgb(223, 228, 221); 
+     
+    font-size: 1.5rem;
+     padding-left:1rem;
+     padding-right: 1rem;
+
+}
+.navbar{
+    padding:0rem 0rem;/*parent nav se bahar ja raha tha list aur input isliye*/
+    height:2rem; /* height jyada lag rahi  thi to height ki range dedi*/
+    
+    background:rgb(242, 7, 7);
+   border-radius:5rem;
+     border-bottom:0.2rem solid rgb(0, 211, 211); */
+}
+.navbar ul{
+    overflow:auto;
+    margin:0rem .8rem;
+    padding:0.05rem 0.9rem;
+    
+}
+.navbar li{
+    float:left; 
+     list-style:none;/*bullets get erased */
+    
+    font-size: 1.1rem;
+    margin:.4rem 0.5rem;
+    font-weight: bold;
+}
+.navbar li a{
+    text-decoration: none;  /*below lines erase*/
+    color:rgb(248, 248, 238);
+
+}
+.nav-item :hover{
+
+    
+    
+    transform: scale(2);
+    color:rgb(240, 249, 110);
+    
+}
