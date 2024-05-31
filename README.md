@@ -1,4 +1,4 @@
 # Countdown_site
 author:Kuldeep Agrahari
 this is a javascript project
-this site will show a motivational reminder for the student
+<h1>I made this to add my recent ongoing works with targets , so that i do not forget my plannings </h1>
