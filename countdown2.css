@@ -10,7 +10,7 @@
     font-weight: 400;
     font-style: normal;
     position: absolute;
-    height: 250vh;
+    /* height: 250vh; */
     width: 100vw;
     opacity: 1;  /*darkness of back-color*/
     z-index: -1;
@@ -25,7 +25,7 @@
         font-weight: 400;
         font-style: normal;
         position: absolute;
-        height: 280vh;
+        /* height: 280vh; */
         width: 100vw;
         opacity: 1;  /*darkness of back-color*/
         z-index: -1;
@@ -39,6 +39,7 @@ body{
     font-weight: 400;
     font-style: normal;
     background-color: black;
+    height: 100%;
 }
 
 @media screen and (max-width: 350px) {
