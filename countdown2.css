@@ -99,7 +99,7 @@ body{
     box-shadow: 5px 5px 70px inset blue;
     width: 40%;
     position: absolute;
-    left: 30%;
+    left: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -112,13 +112,14 @@ body{
 .logo
 {
     position: absolute;
-    left:83%;
-    top:1%;
+    left:78%;
+    top:15%;
 }
 .logo img{
     width:170px;
     height:170px;
     border-radius: 50%;
+    box-shadow: 10px 10px 100px rgb(248, 248, 5);
 }
 #h1 {
     /* margin-bottom: 0px; */
@@ -136,7 +137,7 @@ body{
     box-shadow: 5px 5px 80px inset rgb(11, 227, 255);
     background-color: black;
     border-radius: 10px;
-    width:80%;
+    width:70%;
     position: absolute;
     top:1%;
 }
